@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>IsK Coffee</title>
+  <link rel="stylesheet" type="text/css" href="swap.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script type="text/javascript" src="swap.js"></script>
+</head>
+
+<body>
+    <header class="nav-bar">
+        <h1>IsK Coffee</h1>
+        <p>The best Coffee in Montreal</p>
+    </header>
+    <div id="main_div">
+        <main class="container">
+            <h1>Click on the images below to make your choice!<h1> 
+            <ul id="image_list">
+                <li ><a href="images/Cappuccino.jpg" title="Cappuccino" value="2" id="id-1">
+                    <img src="images/Cappuccino.jpg" alt="" class="displayed"></a>
+                <a href="images/InkedCappuccino - Copy_LI.jpg" title="Cappuccino" value="2">
+                    <img src="images/InkedCappuccino - Copy_LI.jpg" alt="" class="not_displayed"></a></li>
+
+                <li ><a href="images/Black_coffee.jpg" title="Black Coffee" value="3" id="id-2">
+                    <img src="images/Black_coffee.jpg" alt="" class="displayed"></a>
+                    <a href="images/InkedBlack_coffee_copy_LI.jpg" title="Black Coffee" value="3">
+                        <img src="images/InkedBlack_coffee_copy_LI.jpg" alt="" class="not_displayed"></a></li>
+
+                <li ><a href="images/coffee-latte-.jpg" title="Latte" value="2" id="id-3">
+                    <img src="images/coffee-latte-.jpg" alt=""></a>
+                    <a href="images/Inkedcoffee-latte-Copy_LI.jpg" title="Latte" value="2">
+                        <img src="images/Inkedcoffee-latte-Copy_LI.jpg" alt="" class="not_displayed"></a></li>
+
+                <li id="id-4"><a href="images/iced-coffee.jpg" title="Iced Coffee" value="4" id="id-4">
+                    <img src="images/iced-coffee.jpg" alt=""></a>
+                    <a href="images/Inkediced-coffee-Copy_LI.jpg" title="Iced Coffee" value="4">
+                        <img src="images/Inkediced-coffee-Copy_LI.jpg" alt="" class="not_displayed"></a></li>
+
+                <li id="id-5"><a href="images/Orange_Juice.jpg" title="Orange Juice" value="2" id="id-5">
+                    <img src="images/Orange_Juice.jpg" alt=""></a>
+                    <a href="images/InkedOrange_Juice-copy_LI.jpg" title="Orange Juice" value="2">
+                        <img src="images/InkedOrange_Juice-copy_LI.jpg" alt="" class="not_displayed"></a></li>
+
+                <li id="id-6"><a href="images/croissant.jpg" title="Butter Croissant" value="1" id="id-6">
+                    <img src="images/croissant.jpg" alt=""></a>
+                    <a href="images/Inkedcroissant-copy_LI.jpg" title="Butter Croissant" value="1">
+                        <img src="images/Inkedcroissant-copy_LI.jpg" alt="" class="not_displayed"></a></li>
+            </ul>     
+        </main>
+        <aside class="container">
+            <h2 id="caption">Cappuccino</h2>
+            <p><img id="main_image" src="images/Cappuccino.jpg" alt=""></p>
+            <div id="bill" class="container">
+                <div id="order">
+                    <h2>Your Order</h2>
+                    <li name="Order_details" id="Order_details" cols="30" rows="30"></li>
+                    <li class=""></li>
+                    <br>
+                </div>
+                <div  id="total_buttons">
+                    <li id="total" class="price "></li>
+                    <li></li>
+                    <br>
+                    <button id="place_order">Place Your Order</button>
+                    <button id="remove_order">Clear Order</button>     
+                </div>
+            </div>
+        </aside>
+    </div>
+</body>
+</html>
